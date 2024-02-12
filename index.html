@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/autre/scooplink_logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/autre/scooplink_logo.png" type="image/x-icon">
+    <title>Page d'acceuil Scooplink</title>
+    <meta name="description"
+        content="Scooplink vous aidé a vous formé et trouvé votre voix! Nous proposont plusieurs formation pour vous aider">
+    <link rel="stylesheet" href="/CSS/output.css">
+    <style>
+        /*  CSS custom */
+        body {
+            overflow-x: hidden;
+            /* Prevent horizontal scrolling */
+        }
+
+        #formation {
+            transition: transform 1.5s ease;
+            /* Transition  */
+            transform: translateX(-120%);
+            /* put the div outside of the screen */
+        }
+
+        #formation.appear {
+            transform: translateX(0);
+            /* Move to the visible position */
+        }
+
+        /*  CSS custom */
+        #orientation {
+            transition: transform 1.5s ease;
+            /* Transition  */
+            transform: translateX(150%);
+            /* put the div outside of the screen */
+        }
+
+        #orientation.appear {
+            transform: translateX(0);
+            /* Move to the visible position */
+        }
+    </style>
+
+</head>
+
+<header>
+    <nav class="bg-customDarkGray flex items-center justify-between p-4">
+        <div class="site-logo">
+            <img class="max-w-full h-auto" style="max-width: 500px; max-height: 100px;" src="./autre/scooplink_logo.png"
+                alt="Logo" />
+        </div>
+        <ul class="flex space-x-10 text-3xl">
+            <li class="text-customPink"><a href="#orientation">Orientation</a></li>
+            <li class="text-customBlue"><a href="#branding">Branding</a></li>
+            <li class="text-customPink"><a href="#formation ">Formation </a></li>
+            <li class="text-customBlue"><a href="./html/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+<body class="bg-gray-50 font-poppins text-customDarkGray">
+    <div class="flex ">
+        <div class="w-1/6 p-4 ">
+            <!-- image goes here -->
+            <img src="autre/vincent.jpg" alt="vicent+lauriane" class="w-full h-full object-cover" />
+        </div>
+        <div class="flex-1 flex flex-col  justify-between">
+            <div class="h-1/3 p-4 text-lg font-poppins">ça, c’était nos têtes il y a plus de 5 ans quand on nous
+                demandait “Tu
+                veux
+                faire quoi après le bac ?</div>
+            <div class="h-1/3 p-4 font-poppins text-xl ">Si pour toi aussi, BTS, DUG, Bachelor, licence, Master,
+                Mastère, RNCP,
+                crédit
+                ETS ça correspond à ça : =:?/$**`' <p>Vient échanger avec <a href="./html/contact.html"
+                        class="text-customPink font-weight:700">nous </a>!</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- OFFRE ORIENTATION -->
+    <!-- div qui sert a crée un espace entre les div au dessus et en dessous-->
+    <div class="m-10 p-10"></div>
+
+    <div id="orientation"
+        class="flex flex-col bg-gray-100 text-customDarkGray m-20 text-lg pt-10 pb-30 pl-40 pr-20 rounded-lg">
+        <h1 class="text-xl font-dmsans  mb-4">Notre <span class="font-bold font-dmsans text-2xl text-customBlue">offre
+                orientation</span>
+            : Que tu aies un bac + 0 ou un bac + 5
+        </h1>
+        <div class=" mb-4 text-xl">
+            Pas de chichis, on casse les préjugés !
+        </div>
+        <div id="script" class="font-poppins text-lg">
+            Cette offre va te permettre de comprendre tous les choix qui s’offrent à toi à n’importe quel moment de ta
+            vie étudiante !
+
+        </div>
+        <h2 class="text-xl text-center mt-6 pt-6 mb-4">1 <span class="text-customPink font-bold"> ScoopLinker &nbsp
+                &nbsp </span>
+            1
+            <span class="text-customBlue font-bold"> accompagnement </span>
+            100% dédié
+        </h2>
+
+        <div class="flex justify-between">
+            <!-- Image 1 with text -->
+            <div class="flex flex-col items-center">
+                <img src="./autre/placeholder.png" alt="img 1" class="mb-2 rounded-full"
+                    style="width: 100px; height: 100px;">
+                <h3 class="font-bold">Destruction/explosion - On oublie tout, ou presque</h3>
+                <p class="max-w-xs" style="width: 250px; height: 100px;">
+                    Ici, on va casser tous tes préjugés et a priori sur les différentes filières et branches qui
+                    existent
+                </p>
+
+            </div>
+
+            <!-- Image 2 with text -->
+            <div class="flex flex-col items-center">
+                <img src="./autre/placeholder.png" alt="Image 2" class="mb-2 rounded-full"
+                    style="width: 100px; height: 100px;">
+                <h3 class="font-bold">Le Scope - Tu sais où tu veux aller
+                </h3>
+                <p class="max-w-xs" style="width: 250px; height: 100px;">
+                    Ici, on va débroussailler les métiers & secteurs en pénuries de profils. Prends la bonne fusée !
+                </p>
+            </div>
+
+            <!-- Image 3 with text -->
+            <div class="flex flex-col items-center">
+                <img src="./autre/placeholder.png" alt="Image 3" class="mb-2 rounded-full"
+                    style="width: 100px; height: 100px;">
+                <h3 class="font-bold">Le Scooplinking - Accède à la formation de ton choix</h3>
+                <p class="max-w-xs" style="width: 250px; height: 100px;">
+                    Ici, on va te formater t'entraîne et te préparer, aux entretiens de sélections ! Go être dans les
+                    top 1%
+                </p>
+            </div>
+
+
+
+
+        </div>
+        <div class="flex justify-between mt-10">
+            <div></div> <!-- Empty div on the left side or with other content -->
+            <a class="text-customPink pt-20 font-semibold" href="./html/contact.html">Réserver une formation</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- div qui sert a crée un espace entre les div au dessus et en dessous-->
+    <div class="m-10 p-10"></div>
+    <!-- OFFRE BRANDING-->
+
+    <div id="branding"
+        class="flex flex-col bg-gray-100 text-customDarkGray m-20 text-lg pt-10 pb-30 pl-40 pr-20 rounded-lg">
+        <h1 class="text-xl font-dmsans  mb-4">Notre <span class="font-bold font-dmsans text-2xl text-customBlue">offre
+                Branding</span>
+            : Que tu sois étudiant ou cadre sup !
+        </h1>
+        <div class=" mb-4 text-xl">
+            Parce que ressembler à Brad Pitt ne fais pas tout ! PS : C’est vrai que ça aide…
+
+        </div>
+        <div id="script" class="font-poppins text-lg">
+            Cette offre va te permettre de te créer une VRAI identité professionnelle & engageante sur la toile.
+            On va te propulser dans la stratosphère très prisée des étudiants qui sorte VRAIMENT du lot !
+
+
+        </div>
+        <h2 class="text-xl text-center mt-6 pt-6 mb-4">1 <span class="text-customPink font-bold"> ScoopLinker &nbsp
+                &nbsp </span>
+            1
+            <span class="text-customBlue font-bold"> accompagnement </span>
+            100% dédié
+        </h2>
+
+        <div class="flex justify-between">
+            <!-- Image 1 with text -->
+            <div class="flex flex-col items-center">
+                <img src="./autre/placeholder.png" alt="img 1" class="mb-2 rounded-full"
+                    style="width: 100px; height: 100px;">
+                <h3 class="font-bold">Topographie - Découvre toi </h3>
+                <p class="max-w-xs" style="width: 250px; height: 100px;">
+                    Ici, tu vas comprendre qui Tu es vraiment et qu’est ce qui fait de toi quelqu’un de différent…
+                    C’est fini d’être une plante verte !
+
+                </p>
+
+            </div>
+
+            <!-- Image 2 with text -->
+            <div class="flex flex-col items-center">
+                <img src="./autre/placeholder.png" alt="Image 2" class="mb-2 rounded-full"
+                    style="width: 100px; height: 100px;">
+                <h3 class="font-bold">Le Scope - Tu sais où tu veux aller</h3>
+                <p class="max-w-xs" style="width: 250px; height: 100px;">
+                    Ici, on va te mettre dans le grand bain !
+                    Création, formation & stratégie. Tes objectifs 100% remplis
+                    Soit l’aimant qui attire les entreprises !
+
+                </p>
+            </div>
+
+            <!-- Image 3 with text -->
+            <div class="flex flex-col items-center">
+                <img src="./autre/placeholder.png" alt="Image 3" class="mb-2 rounded-full"
+                    style="width: 100px; height: 100px;">
+                <h3 class="font-bold">Le CV-Scoop8.0 - Décroche ton alternance / Stage </h3>
+                <p class="max-w-xs" style="width: 250px; height: 100px;">
+                    Ici on va te créer le CV qui t’amène direct aux entretiens !
+                    On va faire de toi le Mbappé des entretiens !
+                    100% compétences 100% business 0% Blabla
+
+                </p>
+            </div>
+
+
+
+
+        </div>
+        <div class="flex justify-between mt-10">
+            <div></div> <!-- Empty div on the left side or with other content -->
+            <a class="text-customPink pt-20 font-semibold" href="./html/contact.html">Réserver une formation</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--OFFRE FORMATION-->
+    <!-- div qui sert a crée un espace entre les div au dessus et en dessous-->
+    <div class="m-10 p-10"></div>
+
+
+
+
+
+    <div id="formation"
+        class="flex flex-col bg-gray-200 text-customDarkGray m-20 text-lg pt-10 pb-30 pl-40 pr-20 rounded-lg">
+        <h1 class="text-xl font-dmsans  mb-4">Notre <span class="font-bold font-dmsans text-2xl text-customBlue">offre
+                formation</span>
+            : Que tu sois une école ou un étudiant
+        </h1>
+        <div class=" mb-4 text-xl">
+            777% de mise en pratique et pas 1% de moins
+        </div>
+        <div id="script" class="font-poppins text-lg">
+            10 ans d’expériences dans le commerce BtoB dans un contexte de vente complexe.
+            Création de startup/business, free-lance en stratégie Marketing/communication & commerciale ect..
+            Bref si on vous dis tout, il n’y aura plus de place…
+            Cette offre permettra à vos étudiants de bénéficier de mise en pratique avec contexte professionnel en
+            adéquation avec le marché actuel !
+
+
+        </div>
+
+
+        <div class="flex justify-between">
+            <!-- Image 1 with text -->
+            <div class="flex flex-col items-center">
+                <img src="./autre/placeholder.png" alt="img 1" class="mb-2 rounded-full"
+                    style="width: 100px; height: 100px;">
+                <h3 class="font-bold">Commerce </h3>
+                <p class="max-w-xs" style="width: 250px; height: 100px;">
+                    10 ans d’expériences dans le commerce BtoB dans un contexte de vente complexe.
+                    Permettez à vos élèves de bénéficier des dernières techniques commerciales :
+                    Chasse 4.0
+                    Sourcing
+                    Stratégie commercial
+                    Négociation
+                    Vente complexe
+
+                </p>
+
+            </div>
+
+            <!-- Image 2 with text -->
+            <div class="flex flex-col items-center">
+                <img src="./autre/placeholder.png" alt="Image 2" class="mb-2 rounded-full"
+                    style="width: 100px; height: 100px;">
+                <h3 class="font-bold">Marketing</h3>
+                <p class="max-w-xs" style="width: 250px; height: 100px;">
+                    En fonction du marketing des apprenant, du généraliste à l’influence en passant par de
+                    l’evenementiel. Avec des notions de bases, nous mettons en place des leviers commerciaux afin de
+                    mieux connaître les actions du marketing digitale. La notion d’objectif est également importante et
+                    encore plus fois, en partenariat avec les entités locales, les actions sont concretes.
+                </p>
+            </div>
+
+            <!-- Image 3 with text -->
+            <div class="flex flex-col items-center">
+                <img src="./autre/placeholder.png" alt="Image 3" class="mb-2 rounded-full"
+                    style="width: 100px; height: 100px;">
+                <h3 class="font-bold">Communication </h3>
+                <p class="max-w-xs" style="width: 250px; height: 100px;">
+                    Quand on nous sollicite sur cette fonction, encore une fois, nous travaillions avec des entreprises
+                    et des associations du tissus locale pour mettre en oeuvre les actions de communication.
+                    Planning Editoriale, Community Manager, Social Selling sont de reels actions que l’on apprend aux
+                    étudiants et que nous agrementons avec des outils IT d’automatisation, d’intelligence artificielle,
+                    de personnalisation, d’ajout de référencement ou de programmation.
+                    Enfin, nous mettons en place des actions de chefferie de projet en terme de communication interne en
+                    fonction des besoins !
+
+                </p>
+            </div>
+
+
+
+
+        </div>
+        <div class="flex justify-between mt-10">
+            <div></div> <!-- Empty div on the left side or with other content -->
+            <a class="text-customPink pt-20 font-semibold" href="./html/contact.html">Réserver une formation</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <footer class="pt-2000">
+        <div class="flex">
+            <div class="flex-1 w-1/3  bg-gray-300 p-4">
+                <h3 class="text-lg font-bold">Section 1</h3>
+                <p>Contenu</p>
+            </div>
+            <div class="flex-1 w-1/3  bg-gray-400 p-4">
+                <h3 class="text-lg font-bold">Section 2</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22617.426375839754!2d-0.0259091!3d44.8790204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5557a7a578683b%3A0xba310bda56757343!2s33350%20Belv%C3%A8s-de-Castillon!5e0!3m2!1sen!2sfr!4v1706689081102!5m2!1sen!2sfr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="bg-gray-500 w-1/3 items-center">
+                <h3 class="text-lg font-bold">Nous retrouver</h3>
+                <div class="bg-gray-500 p-4 ml-4 flex items-center">
+                    <!-- Facebook logo with redirection -->
+                    <a href="https://www.facebook.com/profile.php?id=61555996031008" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="mb-2  ml-4 rounded-full w-16 h-16 object-cover" style="width: 60px; height: 60px;"
+                            src="./autre/Facebook_logo.png" alt="Facebook Logo" />
+                    </a>
+
+                    <!-- TikTok logo with redirection -->
+                    <a href="https://www.tiktok.com/@scooplink" target="_blank" rel="noopener noreferrer">
+                        <img class="rounded-full  ml-4 mb-2 w-16 h-16 object-cover" style="width: 60px; height: 60px;"
+                            src="./autre/logo-tiktok.jpg" alt="TikTok Logo" />
+                    </a>
+
+                    <!-- Instagram logo with redirection -->
+                    <a href="https://www.instagram.com/scooplink33/" target="_blank" rel="noopener noreferrer">
+                        <img class="rounded-full ml-4 mb-2 w-16 h-16 object-cover" style="width: 60px; height: 60px;"
+                            src="./autre/logo-insta.jpg" alt="Instagram Logo" />
+                    </a>
+
+                    <!-- LinkedIn logo with redirection -->
+                    <a href="https://www.linkedin.com/company/scooplink" target="_blank" rel="noopener noreferrer">
+                        <img class="rounded-full ml-4 mb-2 w-16 h-16 object-cover" style="width: 60px; height: 60px;"
+                            src="./autre/logo-linkedin-noir-et-blanc.png" alt="LinkedIn Logo" />
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!-- A METTRE DANS UN JS A PART -->
+    <script>
+        const formationDiv = document.getElementById('formation');
+        const orientationDiv = document.getElementById('orientation');
+        window.addEventListener('scroll', () => {
+            //recuperer le scroll 
+            const scrollPosition = window.scrollY;
+            // valeur a la quelle les div doivent transitionner
+            const triggerPositionFormation = 1500;
+            const triggerPositionOrientation = 200;
+            if (scrollPosition > triggerPositionFormation) {
+                formationDiv.classList.add('appear');
+            } else {
+                formationDiv.classList.remove('appear');
+            }
+            if (scrollPosition > triggerPositionOrientation) {
+                orientationDiv.classList.add('appear');
+            } else {
+                orientationDiv.classList.remove('appear');
+            }
+        });
+    </script>
+</body>
+
+</html>
